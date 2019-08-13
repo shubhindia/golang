@@ -24,4 +24,9 @@ func main() {
 	var mean int
 	mean = (x + y) / 2
 	fmt.Println("Mean is ", mean)
+	//Using switch
+	if x < 5 {
+		fmt.Println("X is smaller")
+	}
+
 }
